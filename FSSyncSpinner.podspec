@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "FSSyncSpinner123"
+  s.name             = "FSSyncSpinner"
   s.version          = "0.0.1"
   s.summary          = "An elegant sync/progress indicator made full-programmed(without png or jpg file)"
   s.homepage         = "https://github.com/f33chobits/FSSyncSpinner"
