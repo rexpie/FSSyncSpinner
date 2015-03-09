@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FSSyncSpinner', :exclusive => true do
+  pod "FSSyncSpinner", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "FSSyncSpinner", :path => "../"
+
+  
+end
