@@ -7,23 +7,27 @@
 //
 
 #import "FSViewController.h"
-
-@interface FSViewController ()
-
-@end
+#import "FSSyncSpinner.h"
 
 @implementation FSViewController
 
-- (void)viewDidLoad
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.section == 0) {
+        return;
+    }
+    if (indexPath.row == 0) {
+        [_indicator startAnimating];
+    } else if (indexPath.row == 1) {
+        [_indicator finish];
+    }
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)switchValueChanged:(id)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UISwitch *switcher = (UISwitch *)sender;
+    _indicator.hidesWhenFinished = switcher.on;
 }
 
 @end

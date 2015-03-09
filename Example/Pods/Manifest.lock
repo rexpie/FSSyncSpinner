@@ -1,0 +1,14 @@
+PODS:
+  - FSSyncSpinner (0.1.0)
+
+DEPENDENCIES:
+  - FSSyncSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  FSSyncSpinner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FSSyncSpinner: bb250df366e4c648f787c02434e09d450ef2bf12
+
+COCOAPODS: 0.35.0

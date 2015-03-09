@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FSSyncSpinner.h"
 
-@interface FSViewController : UIViewController
+@interface FSViewController : UITableViewController
+
+@property (weak, nonatomic) IBOutlet FSSyncSpinner *indicator;
+
+- (IBAction)switchValueChanged:(id)sender;
 
 @end
