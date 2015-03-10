@@ -1,6 +1,5 @@
 # FSSyncSpinner
 
-[![CI Status](http://img.shields.io/travis/f33chobits/FSSyncSpinner.svg?style=flat)](https://travis-ci.org/f33chobits/FSSyncSpinner)
 [![Version](https://img.shields.io/cocoapods/v/FSSyncSpinner.svg?style=flat)](http://cocoadocs.org/docsets/FSSyncSpinner)
 [![License](https://img.shields.io/cocoapods/l/FSSyncSpinner.svg?style=flat)](http://cocoadocs.org/docsets/FSSyncSpinner)
 [![Platform](https://img.shields.io/cocoapods/p/FSSyncSpinner.svg?style=flat)](http://cocoadocs.org/docsets/FSSyncSpinner)
