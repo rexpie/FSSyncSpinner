@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/FSSyncSpinner.svg?style=flat)](http://cocoadocs.org/docsets/FSSyncSpinner)
 [![Platform](https://img.shields.io/cocoapods/p/FSSyncSpinner.svg?style=flat)](http://cocoadocs.org/docsets/FSSyncSpinner)
 
-![fssyncspinner](https://cloud.githubusercontent.com/assets/5186464/6557191/32b690a8-c6ae-11e4-9c91-027f107bef26.gif)
+![fssyncspinner](https://cloud.githubusercontent.com/assets/5186464/6570580/0719e6fe-c738-11e4-955c-c7ac09b516ea.gif)
 
 This project is based on [Michael Villar's excellent Motion Experiments post](http://www.michaelvillar.com/motion) - Syncing/Success Icon
 
