@@ -1,7 +1,7 @@
 language: objective-c
 xcode_workspace: Example/FSSyncSpinner.xcworkspace
 xcode_scheme: FSSyncSpinner-Example
-xcode_sdk: iphonesimulator7.1
+xcode_sdk: iphonesimulator8.1
 env: CODE_SIGN_IDENTITY=- CODE_SIGNING_REQUIRED=NO
 notifications:
   email: false
