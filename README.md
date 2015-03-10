@@ -35,7 +35,7 @@ iOS 7.0
 
 ## Author
 
-Wenchao Ding => f33chobits@gmail.com
+Wenchao Ding, f33chobits@gmail.com
 
 ## License
 
