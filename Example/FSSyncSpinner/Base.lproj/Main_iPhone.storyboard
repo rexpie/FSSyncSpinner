@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--FSSpinnerSync-->
+        <!--FSSyncSpinner-->
         <scene sceneID="KNd-qv-YLg">
             <objects>
                 <tableViewController id="BDY-ZR-83D" customClass="FSViewController" sceneMemberID="viewController">
@@ -103,7 +103,7 @@
                             <outlet property="delegate" destination="BDY-ZR-83D" id="TaJ-LL-0Mi"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="FSSpinnerSync" id="eNn-cy-t1g"/>
+                    <navigationItem key="navigationItem" title="FSSyncSpinner" id="eNn-cy-t1g"/>
                     <connections>
                         <outlet property="indicator" destination="TJm-A6-VEM" id="b1B-q9-GEf"/>
                     </connections>
